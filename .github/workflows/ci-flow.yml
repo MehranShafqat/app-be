@@ -14,7 +14,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v1
     - name: Build and Push to mehran org
-      uses: humanitec/build-push-to-humanitec@master
+      uses: humanitec/build-push-to-humanitec@v1
       with:
         humanitec-token: ${{ secrets.HUMANITEC_TOKEN }}
         organization: mehran-org-prod
